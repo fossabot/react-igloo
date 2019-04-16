@@ -1,31 +1,11 @@
-# react-igloo
+<p align="center">
+  <img src="https://github.com/IglooCloud/IglooBering/blob/master/IglooLogo.png" alt="Igloo logo" width="128"/>
+</p>
 
-> The Igloo React library
+<h1 align="center">react-igloo</h1>
 
-[![NPM](https://img.shields.io/npm/v/react-igloo.svg)](https://www.npmjs.com/package/react-igloo) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-```bash
-npm install --save react-igloo
-```
-
-## Usage
-
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-igloo'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
-```
+react-igloo is the official Igloo library for React.
 
 ## License
 
-MIT © [IglooCloud](https://github.com/IglooCloud)
+See the [license](https://raw.githubusercontent.com/IglooCloud/IglooSite/master/LICENSE) file for license rights and limitations.

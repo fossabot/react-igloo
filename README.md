@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/IglooCloud/IglooBering/blob/master/IglooLogo.png" alt="Igloo logo" width="128"/>
+  <img src="https://github.com/IglooCloud/react-igloo/blob/master/IglooReactLogo.png" alt="Igloo logo" width="128"/>
 </p>
 
 <h1 align="center">react-igloo</h1>

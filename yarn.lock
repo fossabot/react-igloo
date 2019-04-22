@@ -2895,6 +2895,12 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
+dot-prop@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.0.0.tgz#64b7968af349c3a9f966aa12658dbd5829f6b953"
+  dependencies:
+    is-obj "^1.0.0"
+
 dotenv-expand@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-4.2.0.tgz#def1f1ca5d6059d24a766e587942c21106ce1275"
@@ -4150,10 +4156,11 @@ iferr@^0.1.5:
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
 
 igloo.js@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/igloo.js/-/igloo.js-1.0.1.tgz#39479411079977fa83f2809444d5d0e934122f33"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/igloo.js/-/igloo.js-1.0.3.tgz#8dd7a56d763a5e3ad73799eed98216c89fd25057"
   dependencies:
     dataloader "^1.4.0"
+    dot-prop "^5.0.0"
     minimal-graphql "^1.0.3"
 
 ignore-walk@^3.0.1:

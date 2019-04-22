@@ -6,6 +6,8 @@ export default Igloo;
 
 export const User = UserComponent;
 
+export const Skip = ""
+
 export const Loading = '';
 
 export const Error = '';
@@ -13,3 +15,4 @@ export const Error = '';
 export const Data = '';
 
 export const Environments = '';
+

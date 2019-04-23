@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function fetchMore(limit, offset) {}
+export default class User extends Component {
+  static contextType = IglooContext;
 
-export default function Environment({
-  limit,
-  offset,
-  fields,
-  subscriptions,
-  skip
-}) {
-  return (
-    <children
-      fetchMore={(newLimit) =>
-        fetchMore(newLimit === undefined ? limit : newLimit, offset)
-      }
-    />
-  );
+  fetchUser = async () => {
+    let user = { id: await this.context.query.user.id };
+
+    if (this.props.fields.includes('name')) {
+      user = {
+        ...user,
+        name: await this.context.query.user.name
+      };
+    }
+
+    return user;
+  };
+
+  render() {
+    if (this.props.skip) {
+      return <children />;
+    } else {
+      let user = null;
+
+      this.fetchUser().then((_user) => (user = _user));
+
+      return <children user={user} loading={!user} />;
+    }
+  }
 }
